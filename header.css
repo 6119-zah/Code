@@ -1,0 +1,74 @@
+header{
+  display:flex;
+  flex-direction:left;
+  justify-content:space-between;
+  margin:20px;
+  font-size:11px;
+  font-family: Epilogue;
+}
+.right-section{
+  display:flex;
+  align-items:center;
+  flex:1;
+}
+.logo{
+  height:25px;
+  padding-top:10px;
+  margin-left:0px;
+  margin-right:20px;
+}
+.nav-bar a{
+  margin:15px;
+  text-decoration: none;
+  color:rgb(52, 48, 48);
+}
+.dropdownclass{
+  position:relative;
+}
+.dropdownBtn{
+   background-color:white;
+   border:none;
+   position:relative;
+}
+  .dropdown-menu1{
+  position:absolute;
+  left:-60px;
+  padding:10px;
+  box-shadow: 0px 4px 10px 0px;
+  list-style: none;
+  visibility:hidden;
+  opacity:0;
+}
+.dropdown-menu2{
+  position:absolute;
+  left:-20px;
+  padding:10px;
+  box-shadow: 0px 4px 10px 0px;
+  list-style:none;
+  visibility:hidden;
+  opacity:0;
+}
+.show{
+  opacity:1;
+  visibility:visible;
+}
+.left-section{
+  display:flex;
+  align-items:center;
+}
+.left-section a{
+  text-decoration: none;
+  color:rgb(52, 48, 48);
+}
+.left-section a, button:hover{
+  cursor: pointer;
+}
+.register-button{
+  background-color:white;
+  font-size:11px;
+  height:30px;
+  width:70px;
+  border-radius:10px;
+  border:solid;
+  border-width:1px;
+}
