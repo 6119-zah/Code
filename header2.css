@@ -47,9 +47,9 @@ header{
   list-style: none;
   visibility:hidden;
   opacity:0;
-  background-color: white; /* for better styling*/
-  z-index: 1000; z-index: 1000; /* for better styling*/
-  transition: all 0.3s ease; /* for better styling*/
+  background-color: white; /* for better styling by victor*/
+  z-index: 1000; z-index: 1000; /* for better styling by vicor*/
+  transition: all 0.3s ease; /* for better styling by victor*/
 }
 .dropdown-menu2{
   position:absolute;
@@ -60,9 +60,9 @@ header{
   list-style:none;
   visibility:hidden;
   opacity:0;
-  transition: all 0.3s ease;/* for better styling*/
-  background-color: white;/* for better styling*/
-  z-index: 1000; z-index: 1000;/* for better styling*/
+  transition: all 0.3s ease;/* for better styling by victor*/
+  background-color: white;/* for better styling by victor*/
+  z-index: 1000; z-index: 1000;/* for better styling by victor*/
 }
 .show{
   opacity:1;
