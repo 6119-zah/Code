@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html>
+<!-- add lang="en" to html -->
+<html lang="en">
   <title>Intro section drop down menu</title>
   <head>
+    <!----always add these 2 meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta charset="UTF-8">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="header2.css">
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css">
     
   </head>
   <body>
@@ -15,7 +21,7 @@
       <div class="right-section">
        <nav class="nav-bar"> 
             <div>
-              <img class="logo" src="images/logo challenge.svg">
+              <img class="logo" src="images/logo.svg">
             </div>
             
           <ul class="main-list">
@@ -23,10 +29,10 @@
             <li class="dropdownclass"> 
               Features 
               <button class="dropdownBtn">
-              <img class="dropdown-1" src="images/icon-arrow-down challenge.svg">
+              <img class="dropdown-1" src="images/icon-arrow-down.svg">
               <!-- changed the class name from dropdowm to dropdown -->
                <ul class="dropdown-menu1 dropdown">
-                  <li>Todo List</li>
+                  <li><a>Todo List</a></li>
                   <li>Calendar</li>
                   <li>Reminders</li>
                   <li>Planning</li>
@@ -37,7 +43,7 @@
             <li class="dropdownclass">
               Company 
               <button class="dropdownBtn">
-              <img class="dropdown-2" src="images/icon-arrow-down challenge.svg">
+              <img class="dropdown-2" src="./images/icon-arrow-down.svg">
                 <ul class="dropdown-menu2 dropdown">
                   <li>History</li>
                   <li>Our Team</li>
@@ -48,22 +54,24 @@
           <li>Careers</li>
           <li>About</li>
         </ul> 
-      </nav>  
-     </div>
-    </div>
-
-     <div class="left-section">
+        <!-- moved the left section in to the nav bar -->
+        <div class="left-section">
           <a href="">Login</a>
         &nbsp &nbsp &nbsp &nbsp &nbsp
         <button class="register-button">Register</button>
+      </nav>  
+       
      </div>
+     </div>
+    </div>
+
+    
    </header>
 
 
     <main class="main-grid">
 
         <div class="right-division">
-
           <div class="head-word">
           <h1>Make <br>remote work</h1>
           </div>
@@ -80,19 +88,21 @@
       </div>
         
         <div class="other-logos">
-        <img class="databiz" src="images/client-databiz challenge.svg">
-        <img class="audiophile" src="images/client-audiophile challenge.svg">
-        <img class="meet" src="images/client-meet challenge.svg">
-        <img class="maker" src="images/client-maker challenge.svg">
+        <img class="databiz" src="images/client-databiz.svg">
+        <img class="audiophile" src="images/client-audiophile.svg">
+        <img class="meet" src="images/client-meet.svg">
+        <img class="maker" src="images/client-maker.svg">
         </div>
 
       </div>
         
       <div class="left-division">
-        <img class="left-image" src="images/image-hero-desktop challenge.png">
+        <img class="left-image" src="images/image-hero-desktop.png">
       </div>
     </main>
 
     <script src="index.js"></script>
+    
+
   </body>
 </html>

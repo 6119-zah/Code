@@ -1,20 +1,21 @@
 .main-grid{
   display:grid;
-  grid-template-columns: 550px 100px;
-  margin-left: 80px;
-  margin-right:60px;
+  grid-template-columns: 1fr 0fr;
+  width: 80%; /* adjust this to your needs */
+  margin: auto; /*added this to add automatic margins to the left and right side of the container*/
+  /* margin-left: 80px;
+  margin-right:60px; */ 
 }
-@media (max-width:720px){
+@media (width:720px){
   .main-grid{
     grid-template-columns:1fr 1fr;
+    
   }
 }
-@media (max-width:720px){
 
-}
 .right-division{
   margin-top:70px;
-  margin-left:px;
+  margin-left:0px;
   width:300px;
 }
 
